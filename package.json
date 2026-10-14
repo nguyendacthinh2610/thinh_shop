@@ -1,0 +1,16 @@
+{
+  "name": "thinh_shop",
+  "version": "1.0.0",
+  "description": "Online Shop Order Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
